@@ -1,12 +1,11 @@
-import './App.css'
+import Weather from "./components/Weather";
 
-function App() {
-
+const App = () => {
   return (
-    <>
-     
-    </>
-  )
-}
+    <div className="font-poppins bg-[#e2d4ff] h-screen grid ">
+      <Weather />
+    </div>
+  );
+};
 
-export default App
+export default App;
